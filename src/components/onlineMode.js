@@ -4,6 +4,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Switch from '@mui/material/Switch';
+import "../App.css";
 
 const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
