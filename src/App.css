@@ -1,3 +1,10 @@
-.mainButton {
-  background: blueviolet !important;
+.boxContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px auto;
+  width: 600px;
+}
+
+.notify {
+  margin-left: 0 0 0 150px;
 }
