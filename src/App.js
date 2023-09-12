@@ -36,6 +36,11 @@ function App() {
                   stream music to other devices.
                 </span>
               )}
+              {volume > 80 && (
+                <span className="notification-message">
+                  Listening to music at a high volume could cause long-term hearing loss.
+                </span>
+              )}
             </h3>
           </div>
         </>
